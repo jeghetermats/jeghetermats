@@ -3,10 +3,14 @@
 I'm Mats, a Computer Science student at NTNU in Trondheim, specializing in artificial intelligence. I enjoy taking a problem all the way from raw data to something people can actually use, and I mostly work with Python, data and machine learning.
 
 ### What I'm up to
+- 🚢 **Predicting where ships in Trondheimsfjorden will be in 10–30 minutes**
+  [Try the website](https://ais-skipsprediksjon.streamlit.app/) · [Code](https://github.com/jeghetermats/ais-skipsprediksjon)
+  - A GRU in PyTorch trained on open AIS data from the Norwegian Coastal Administration (2 million minutes from 1,080 ships)
+  - 30 % lower error than a route baseline 30 minutes ahead, tested on a month and on ships the model never saw
 - 🚌 **Predicting bus delays in Trondheim** before the bus has left
   [Try the website](https://bussforsinkelser-trondheim.streamlit.app/) · [Code](https://github.com/jeghetermats/bussforsinkelser-trondheim)
   - Two LightGBM models trained on 43 million stop events from Entur: one predicts the day before, the other 10–60 min before departure using live data
-  - Beats a strong historical baseline by 7.7 % (30 min before) on two months the models never saw
+  - Beats a strong historical baseline by 7.3 % (30 min before) on two months the models never saw
 
 ### Tech stack
 **Languages**
@@ -15,7 +19,7 @@ I'm Mats, a Computer Science student at NTNU in Trondheim, specializing in artif
 
 **Data & machine learning**
 
-![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) [![Scikit-learn](https://img.shields.io/badge/-scikit--learn-%23F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](#) ![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=for-the-badge) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black) ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) [![Scikit-learn](https://img.shields.io/badge/-scikit--learn-%23F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](#) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=for-the-badge) ![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=for-the-badge&logo=duckdb&logoColor=black) ![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
 **Development**
 
