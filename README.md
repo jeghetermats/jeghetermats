@@ -3,6 +3,10 @@
 I'm Mats, a Computer Science student at NTNU in Trondheim, specializing in artificial intelligence. I enjoy taking a problem all the way from raw data to something people can actually use, and I mostly work with Python, data and machine learning.
 
 ### What I'm up to
+- 🪝 **Webhook Inspector: see, filter and replay webhooks live**
+  [Try the demo](https://ca-webhook-inspector.blueriver-b0d3312f.norwayeast.azurecontainerapps.io/demo) · [Code](https://github.com/jeghetermats/webhook-inspector)
+  - ASP.NET Core, React, PostgreSQL and SignalR on Azure Container Apps, with infrastructure in Bicep and deploys through GitHub Actions
+  - Quotas hold under parallel requests, replay is protected against SSRF, and a load test turned 37-second timeouts into fast 503 responses
 - 🚢 **Predicting where ships in Trondheimsfjorden will be in 10–30 minutes**
   [Try the website](https://ais-skipsprediksjon.streamlit.app/) · [Code](https://github.com/jeghetermats/ais-skipsprediksjon)
   - A GRU in PyTorch trained on open AIS data from the Norwegian Coastal Administration (2 million minutes from 1,080 ships)
@@ -15,7 +19,7 @@ I'm Mats, a Computer Science student at NTNU in Trondheim, specializing in artif
 ### Tech stack
 **Languages**
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&style=for-the-badge&logoColor=white)](#) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&style=for-the-badge&logoColor=white)](#) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge) ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge)
 
 **Data & machine learning**
 
@@ -23,7 +27,7 @@ I'm Mats, a Computer Science student at NTNU in Trondheim, specializing in artif
 
 **Development**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
 ### Connect with me
 📧 mats.aleksander.larsson@gmail.com
